@@ -8,12 +8,16 @@ A small, easy-to-use tool to sort files in a folder into category subfolders (Im
 - **Optional**: `pyinstaller` if you want to build a single EXE.
 
 **Quick Start (GUI)**
-- **Recommended (no console):** Double-click `run_gui.vbs` to launch the GUI without a console window.
-- **Alternate (console):** Run `run_gui.bat` or run the GUI directly:
 
   `python organizer_gui.py`
 
-- In the GUI: paste or browse to the folder to organize, enable **Create if missing** if you want the folder created, then click **Organize**. Click **Show log** to view the actions taken.
+ **Recommended (easy start):** Double-click `run_gui.bat` to launch the GUI quickly.
+ **Hide console:** If you prefer to hide the launcher completely, double-click `run_gui.vbs` (it runs the app with `pythonw`).
+ **Run from console:** `python organizer_gui.py`
+
+ In the GUI: paste or browse to the folder to organize, enable **Create if missing** if you want the folder created, then click **Organize**. Click **Show log** to view the actions taken.
+
+ The GUI is intentionally minimal, interactive, and—fun to try. It provides a quick, visual way to see files moved into categories.
 
 **Quick Start (CLI)**
 - Run the command-line organizer directly:
